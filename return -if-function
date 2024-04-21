@@ -1,0 +1,11 @@
+let arrTwo=[1,1,30];
+    console.log(arrTwo.sort());
+
+    function companiName(a,b){
+        console.log('anun${a} and ${b}');
+        if(a>b) return 1;
+        if(a==b) return 0;
+        if(a<b) return 1;
+        return a-b;
+    }
+    console.log(arrTwo.sort(companiName));
